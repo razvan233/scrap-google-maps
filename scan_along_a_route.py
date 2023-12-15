@@ -28,21 +28,22 @@ KEY_POINTS = {
         'HCMW+RPP, Casablanca 20250, Morocco': [33.5848256, -7.553130500000007],
     },
     'USA & Canada':{
-        'Antarctica Way, Miami, FL 33132, USA': [25.770317900000013,-80.1682594],
-        'Statue of Liberty National Monument, New York, NY, USA': [40.6927547,-74.05661390000002],
-        '1929 Robie St, Halifax, NS B3H 3G1, Canada': [44.64651449999999,-63.58849699999999],
-        # 'aux point': [38.61791495897834, -90.16019920196777],
-        # '8888 Balboa Ave, San Diego, CA 92123, USA': [32.83780807958699,-115.34722925067304],
+        # 'Antarctica Way, Miami, FL 33132, USA': [25.770317900000013,-80.1682594],
+        # 'Statue of Liberty National Monument, New York, NY, USA': [40.6927547,-74.05661390000002],
+        # '1929 Robie St, Halifax, NS B3H 3G1, Canada': [44.64651449999999,-63.58849699999999],
+        'aux point 1': [38.61791495897834, -90.16019920196777],
+        'aux point 2': [32.55473618082868, -115.17169347127731],
+        '8888 Balboa Ave, San Diego, CA 92123, USA': [32.83780807958699,-115.34722925067304],
         # 'Port of Seattle, Alaskan Way, Seattle, WA, USA': [47.6140775,-122.35431189999998],
     }
 }
-SEARCH_REGION = 'Morocco' # REPLACE WITH A REGION FROM KEY_POINTS, CASE SENSITIVE!
+SEARCH_REGION = 'USA & Canada' # REPLACE WITH A REGION FROM KEY_POINTS, CASE SENSITIVE!
 API_KEY = '5b3ce3597851110001cf624830da203f9eed48d4a3d07a2af39dcb42'
-SEARCH_KEY = 'مركز المعلومات السياحية'
+SEARCH_KEY = 'tourist information centre'
 ZOOM = 14
 STEP_IN_POSITIONS = 100
 SEARCH_AREA_RADIUS_IN_KM = 50
-FILE_PATH = f'tourist_information_centre_along_80edays_route_{SEARCH_REGION}.csv'
+FILE_PATH = f'tourist_information_centre_along_80edays_route_{SEARCH_REGION}_2.csv'
 CLASS_NAME_SHOP_NAME = "DUwDvf"
 CLASS_NAME_GOOGLE_MAPS_LINK = "hfpxzc"
 CLASS_NAME_INFORMATION_DIV = "Io6YTe"

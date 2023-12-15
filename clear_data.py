@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-FILENAME = 'tourist_information_centre_along_80edays_route_Morocco'
+FILENAME = 'tourist_information_centre_along_80edays_route_USA & Canada'
 
 df = pd.read_excel(f'{FILENAME}.xlsx') 
 

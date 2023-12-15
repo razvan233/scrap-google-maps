@@ -154,7 +154,7 @@ for country, country_coordinates in COUNTRIES.items():
     )
     results = []
     NO_OF_POSITIONS = positions.__len__()
-    last_pos_index = 0
+    last_pos_index = 120048
     while True:
         try:
             options = webdriver.ChromeOptions()
