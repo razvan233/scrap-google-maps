@@ -12,18 +12,18 @@ import math
 COUNTRIES = {
     # 'Germany': {
     #     'bottom_left': [47.271, 5.865],
-    #     'top_right': [55.057, 15.042],
+    #     'top_right': [],
     # },
-    'France': {
-        'bottom_left': [43.06380714652495, -4.53550575863844],
-        'top_right': [51.71786628743251, 6.60598767120187],
+    'Italy': {
+        'bottom_left': [37.196154, 6.891502],
+        'top_right': [47.216118, 13.583875],
     }
 }
 
-SEARCH_KEY='Boutique de marriage'
+SEARCH_KEY='Negozio di moda sposa'
 ZOOM = 14
-SEARCH_AREA_RADIUS_IN_KM = 50
-FILE_PATH = 'bridal_stores_contact_information_raw_france.csv'
+SEARCH_AREA_RADIUS_IN_KM = 30
+FILE_PATH = 'bridal_stores_contact_information_raw_italy.csv'
 CLASS_NAME_SHOP_NAME = "DUwDvf"
 CLASS_NAME_GOOGLE_MAPS_LINK = "hfpxzc"
 CLASS_NAME_INFORMATION_DIV = "Io6YTe"
@@ -154,7 +154,7 @@ for country, country_coordinates in COUNTRIES.items():
     )
     results = []
     NO_OF_POSITIONS = positions.__len__()
-    last_pos_index = 120048
+    last_pos_index = 0
     while True:
         try:
             options = webdriver.ChromeOptions()
